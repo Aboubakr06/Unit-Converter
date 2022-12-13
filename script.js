@@ -25,7 +25,7 @@ let massRs = document.getElementById("mass-results")
 
 
 buttonCv.addEventListener("click", function() {
-    if(inputEl.value === "") {
+    if(inputEl.value === "" | inputEl.value <= 0) {
         inputEl.value = 1
     }
     length()
