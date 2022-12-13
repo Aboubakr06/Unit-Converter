@@ -1,3 +1,22 @@
+//style
+let darkMode = document.getElementById("dark")
+
+darkMode.addEventListener("click",function() {
+    if(darkMode.checked == true) {
+    var root = document.querySelector(':root');
+    root.style.setProperty('--beige', '#1F2937');
+    root.style.setProperty('--white', '#273549');
+    root.style.setProperty('--light-purple1', '#CCC1FF');
+    root.style.setProperty('--grey1', '#FFFFFF');
+    } else {
+        var root = document.querySelector(':root');
+        root.style.setProperty('--beige', '#F4F4F4');
+        root.style.setProperty('--white', '#FFFFFF');
+        root.style.setProperty('--light-purple1', '#5A537B');
+        root.style.setProperty('--grey1', '#353535');
+    }
+})
+
 let inputEl = document.getElementById("input-el")
 let buttonCv = document.getElementById("button-cv")
 let lengthRs = document.getElementById("length-results")

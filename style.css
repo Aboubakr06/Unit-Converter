@@ -1,20 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 
+:root {
+    --black: #1C1C1C;
+    --beige: #F4F4F4;
+    --purple: #6943FF;
+    --white: #FFFFFF;
+    --light-purple: #B295FF;
+    --grey: #3D3D3D;
+    --light-purple1: #5A537B;
+    --grey1 : #353535 ;
+}
+
 body {
-    background: #1C1C1C;
+    background: var(--black);
     font-family: 'inter', sans-serif;
 }
 
 #container {
     text-align: center;
-    background: #F4F4F4;
+    background: var(--beige);
     margin: 0 auto;
     width: 40%;
     padding: 0 0 1rem 0;
 }
 
-#main{
-    background: #6943FF;
+#main {
+    background: var(--purple);
     width: 100%;
     padding: 2rem;
     margin-bottom: 2rem;
@@ -40,6 +51,7 @@ h1 {
 }
 
 #button-cv {
+    margin: 0 auto;
     width: 7rem;
     border-radius: 0.5rem;
     background: #FFFFFF;
@@ -57,8 +69,18 @@ h1 {
     line-height: 2.7rem;
 }
 
+#dark-mode {
+    width: 45%;
+    margin: 1rem 0 0 0;
+}
+
+#dark-label {
+    color: #F4F4F4;
+    font-weight: bold;
+}
+
 .groups {
-    background: #FFFFFF;
+    background: var(--white);
     width: 92%;
     padding: 2rem 0 1.5rem 0 ; 
     margin: 0 auto 1rem;
@@ -69,36 +91,38 @@ h1 {
     width: 600;
     font-size: 1.2rem;
     text-align: center;
-    color: #5A537B;
+    color: var(--light-purple1);
     margin: 0 auto;
 }
 
 .convertion-results {
     font-weight: 400;
     font-size: 1.1rem;
-    color: #353535;
+    color: var(--grey1);
 }
 
 #footer {
     width: 40%;
     margin: 0 auto;
     padding: 1rem ;   
-    background: #6943FF;
+    background: var(--purple);
     text-align: center;
     box-sizing: border-box;
 }
 
 #info {
     margin: 0 auto; 
-    color: #F4F4F4;  
+    color: #F4F4F4 ;
 }
 a {
     color: inherit;
 }
 
 a:hover {
-     color: black;
+     color: var(--black);
 }
+
+
 @media screen and (max-width: 800px){
        #container{
         width: 100%;
