@@ -81,9 +81,10 @@ h1 {
 #footer {
     width: 40%;
     margin: 0 auto;
-    padding: 1rem 0 ;   
+    padding: 1rem ;   
     background: #6943FF;
     text-align: center;
+    box-sizing: border-box;
 }
 
 #info {
