@@ -20,7 +20,7 @@ This is a solution to a Scrimba solo project from JavaScript course .
 
 - Semantic HTML5 markup
 - CSS custom properties
--Java Script
+- Java Script
 
 ## Author
 
