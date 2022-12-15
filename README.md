@@ -10,7 +10,7 @@ This is a solution to a Scrimba solo project from JavaScript course .
 - [Author](#author)
 
 ## Overview
- This is a project built with HTML and CSS JavaScript.
+ This is a project built with HTML CSS and JavaScript.
 
 ### Links
 
